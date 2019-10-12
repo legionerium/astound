@@ -1,0 +1,194 @@
+@media (min-width: 403px) and (max-width:685px)
+	.conteiner
+		.selected_item
+			.discription
+				.discription_item
+					p
+						&:first-child
+							color: #282828
+							font-size: 14px
+							font-weight: 700
+							line-height: 16px
+							text-transform: uppercase
+							letter-spacing: 0.35px
+							margin-bottom: 8px
+
+@media screen and (max-width:685px)
+	.conteiner
+		width: 640px
+		margin-top: 168px
+		padding: 0 22.5px
+		.selected_item
+			position: relative
+			margin-bottom: 67px
+			.view
+				margin-right: 20px
+				height: 353px
+				width: 58%
+				img
+					width: auto
+					height: 94%
+					margin: calc(50% - 136px) calc(50% - 156px)
+			.discription
+				.title
+					position: absolute
+					top: -49px
+					left: 1px
+				.article
+					margin-bottom: 15px
+					p
+						line-height: 9px
+						letter-spacing: 0.9px
+				.prise
+					margin-bottom: 2px
+					p
+						font-size: 36px
+				.rate
+					margin-bottom: 18px
+				.share
+					position: inherit
+					p
+						display: none
+					.social_link
+						display: block
+						box-shadow: none
+						background-color: transparent
+						display: flex
+						flex-direction: column
+						top: -5px
+						left: -4px
+						&:before
+							display: none
+						a
+							margin-bottom: 8px
+						img.close
+							display: none
+				.discription_item
+					p
+						margin-bottom: 22px
+				.color_item
+					margin-bottom: 30px
+				a.add_to_cart
+					font-size: 18px
+					padding: 10px 50px 10px 43px
+		.may_like
+			.title
+				text-align: center
+				margin-left: -14px
+				margin-bottom: 5px
+			.items_block 
+				.item
+					width: 300px
+					height: 284px
+					margin-top: 30px
+					margin-right: 0
+					&:nth-child(odd)
+						margin-right: 34px
+					.item_prises
+						bottom: 0
+						line-height: 26px
+						padding-top: 4px
+						width: 100%
+						p.prise, p.new_prise
+							font-size: 22px
+							margin-left: 0
+						p.prise.sale
+							display: none
+					p.item_title
+						font-size: 16px
+						line-height: 40px
+
+@media screen and (max-width: 402px)
+	.conteiner
+		width: 402px
+		padding: 0
+		.selected_item
+			display: block
+			margin-bottom: 56px
+			.view
+				width: 100%
+				height: 435px
+				margin: 0
+				img
+					height: 90%
+					margin: calc(50% - 193px) calc(50% - 207px)
+			.discription
+				width: 100%
+				padding: 0 36px
+				box-sizing: border-box
+				.title
+					width: 270px
+					top: -81px
+					left: 22px
+					margin-left: 16px
+					p
+						line-height: 36px
+				.article
+					margin: 20px 0
+					p
+						font-size: 12px
+						letter-spacing: 0.6px
+				.prise
+					margin-bottom: 11px
+					p.new_prise
+						margin-left: 16px
+				.rate
+					margin-bottom: 11px
+				.share
+					margin-bottom: 4px
+					.social_link
+						position: relative
+						flex-direction: inherit
+						top: 0
+						left: -18px
+						a
+							margin-right: 16px
+				.discription_item
+					padding: 0 4px
+					p
+						font-size: 14px
+						letter-spacing: 0.6px
+						line-height: 20px
+						margin-bottom: 17px
+				.size_item, .color_item
+					padding: 0 4px
+					display: block
+					p
+						font-size: 16px
+						margin-bottom: 16px
+				.size_item
+					margin-bottom: 31px
+					label.radio_size
+						display: inline-block
+						.radio_text_size
+							&:before
+								left: -1px
+				.color_item
+					margin-bottom: 72px
+					label.radio_color
+						display: inline-block
+						.radio_text_color
+							&:before
+								left: 1px
+								top: -23px
+				a.add_to_cart
+					margin-left: calc(50% - 141px)
+					padding: 15px 80px 16px 73px
+		.may_like
+			.title
+				margin-left: -8px
+				p
+					font-size: 24px
+					letter-spacing: 1.3px
+			.items_block
+				text-align: center 
+				.item
+					width: 280px
+					height: 265px
+					margin-right: 12px !important
+					margin-top: 17px
+					.item_prises 
+							p.prise, p.new_prise
+								font-size: 18px
+					p.item_title
+						line-height: 37px
